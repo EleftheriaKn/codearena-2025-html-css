@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: ZonaPro;
+    src: url("./fonts/ZonaPro-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: ZonaPro;
+    src: url("./fonts/ZonaPro-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: ZonaPro;
+    src: url("./fonts/ZonaPro-Light.otf");
+    font-weight: 100;
+}
+
+@theme {
+    --font-custom: "ZonaPro", "sans-serif";
+    --font-openSans: "Open Sans", "sans-serif";
+
+    --font-weight-light: 300;
+
+  
+    --color-blue: #0babce;
+    --color-gray-vlight: #eeeeee;
+    --color-gray-light: #dedede;
+    --color-gray-dark: #e6e6e6;
+    --color-gray: #58585a;
+    --color-blue-light: #0898b8;
+  
+    --background-image-banner-mobile: url("./images/hero-mobile.jpeg");
+    --background-image-banner: url("./images/hero.jpg");
+    --background-image-section-1: url("./images/Screenshot 2022-11-01 at 12.06 2.png");
+    --background-image-section-2: url("./images/Screenshot 2022-11-01 at 12.06 1.png");
+    --background-image-section-3: url("./images/Screenshot 2022-11-01 at 12.05.png");
+    --background-image-bar: url("./images/bar 1.png");
+}
+  
